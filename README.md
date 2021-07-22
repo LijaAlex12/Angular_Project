@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# Typescript
+superset to JS
+Angular meant to be used with Typescript
+adds static typing to JS whereas JS dynamically typed
+TS doesnot run in the browser
+need to compile TS to JS
+
+```
+function add(a:number,b:number){
+  return a+b;
+}
+const result=add('2','3');
+console.log(result)
+```
